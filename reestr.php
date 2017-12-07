@@ -7,25 +7,25 @@
 <!--noindex-->
 <form id='SearchRegistry' method='post' accept-charset='UTF-8'>
 <fieldset >
-<legend>Реестр выданных сертификатов</legend>
+<legend>Р РµРµСЃС‚СЂ РІС‹РґР°РЅРЅС‹С… СЃРµСЂС‚РёС„РёРєР°С‚РѕРІ</legend>
 
 <div class='container'>
 <input type="hidden" name="token" value="<?php echo $token; ?>" required />
-<label for='name' style="width:168px;display: inline-block;"><strong>Выберите направление:</strong> </label><select type="text" name="" id="napravlenie" maxlength="50">
-   <option value="1" selected="">Защитное вождение</option>
+<label for='name' style="width:168px;display: inline-block;"><strong>Р’С‹Р±РµСЂРёС‚Рµ РЅР°РїСЂР°РІР»РµРЅРёРµ:</strong> </label><select type="text" name="" id="napravlenie" maxlength="50">
+   <option value="1" selected="">Р—Р°С‰РёС‚РЅРѕРµ РІРѕР¶РґРµРЅРёРµ</option>
 </select>
-<label for='name' style="width:168px;display: inline-block;"><strong>Фамилия:</strong> </label><input class="ui-widget ui-state-default ui-corner-all" type='text' name='name' id='name' maxlength="50" required />
-<label for='number' style="width:168px;display: inline-block;" ><strong>Номер сертификата:</strong></label><input class="ui-widget ui-state-default ui-corner-all"  type='text' name='number' id='number' maxlength="50" required/>
-<!--<label for='date' >Дата выдачи: </label><br/>
+<label for='name' style="width:168px;display: inline-block;"><strong>Р¤Р°РјРёР»РёСЏ:</strong> </label><input class="ui-widget ui-state-default ui-corner-all" type='text' name='name' id='name' maxlength="50" required />
+<label for='number' style="width:168px;display: inline-block;" ><strong>РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°:</strong></label><input class="ui-widget ui-state-default ui-corner-all"  type='text' name='number' id='number' maxlength="50" required/>
+<!--<label for='date' >Р”Р°С‚Р° РІС‹РґР°С‡Рё: </label><br/>
 <input type='text' name='date' id='sdate'/><br/>
-<label for='area' >Область аттестации: </label><br/>
+<label for='area' >РћР±Р»Р°СЃС‚СЊ Р°С‚С‚РµСЃС‚Р°С†РёРё: </label><br/>
 <input type='text' name='area' id='area'/><br/>
-<label for='organization' >Организация: </label><br/>
+<label for='organization' >РћСЂРіР°РЅРёР·Р°С†РёСЏ: </label><br/>
 <input type='text' name='organization' id='organization'/>-->
 </div>
 <br/>
 <div class='container' style="margin-top:25px;">
-<input type='submit' name='Submit' value='Поиск' class="button green" />
+<input type='submit' name='Submit' value='РџРѕРёСЃРє' class="button green" />
 </div>
 <div class="putreswrap">
 <br>
